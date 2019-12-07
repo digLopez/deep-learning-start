@@ -12,6 +12,7 @@ def img_show(img):
     pil_img.show()
 
 
+# flatten=True means store a graph as a raw
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)
 
 img = x_train[0]
